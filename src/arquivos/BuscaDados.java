@@ -85,6 +85,8 @@ public class BuscaDados {
 				p.setNome(dados[0]);
 				p.setPreco(Double.parseDouble(dados[1]));
 				p.setMarca(dados[2]);
+				p.setTipoDDR(dados[3]);
+				p.setCategoria(dados[4]);
 
 				this.produtos.add(p);
 			}
